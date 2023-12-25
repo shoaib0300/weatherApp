@@ -3,7 +3,7 @@ if (isset($_GET['city'])) {
     // Input validation
     $city = urlencode(htmlspecialchars($_GET['city']));
 
-    $apiKey = 'f0f2dae02e7a2617964e378b8e92a18a';
+    $apiKey = 'API KEYS';
 
     // Check if the request is for the current location
     if ($city === 'current_location') {
